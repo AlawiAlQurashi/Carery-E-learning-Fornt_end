@@ -668,14 +668,15 @@ section {
 }
 
 .how {
-  padding: 100px 0;
+  padding: 50px;
   background-color: #00A4BD;
+  box-sizing: border-box;
+  display: block;
   
 }
 
 .how .counters span {
   font-size: 48px;
-  display: block;
   color: #ffffff;
   font-weight: 700;
   
@@ -691,9 +692,20 @@ section {
 }
 
 .how .text{
-  margin-top: 10px;
+  margin-top: 70px;
+  margin-right: 70px;
   font-family: "Tajawal";
+  color: white;
 }
+
+.how h2{
+  margin-bottom: 50px;
+  margin-right: 70px;
+  font-family: "Tajawal";
+  color: white;
+  font-style: normal;
+}
+
 
 
 /*--------------------------------------------------------------
@@ -709,6 +721,31 @@ font-family: "Tajawal";
 
 .card-title{
   font-family: "Tajawal";
+}
+
+.courses .name_book{
+  font-family: "Tajawal";
+}
+
+.courses .auther{
+  color: rgb(72, 72, 75);
+  
+}
+
+
+.courses .bookimg{
+  width: 200px;
+  height: 200px;
+}
+.courses h5{
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+}
+
+.all{
+  margin-top: 10px;
+  margin-right: 20px;
 }
 /*--------------------------------------------------------------
 # Contact
