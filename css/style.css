@@ -235,7 +235,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
-  color: #5fcf80;
+  color: #07cf96;
 }
 
 .nav-menu .drop-down > a:after {
@@ -281,7 +281,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Get Startet Button */
 .get1-started-btn {
   margin-left: 10px;
-  background: #00A4BD;
+  background:#00A4BD;
   color: #fff;
   border-radius: 70px;
   padding: 8px 25px;
@@ -493,12 +493,13 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 1px;
   display: inline-block;
   padding: 10px 35px;
+  border:2px solid #07bb88;
   border-radius: 50px;
   transition: 0.5s;
   margin-top: 10px;
  
-  background-color:#00A4BD;
-  color: rgb(255, 255, 255);
+  background-color:#ffffff;
+  color: #07bb88;
 }
 
 #hero .btn-get-started:hover {
@@ -1054,18 +1055,20 @@ font-family: "Tajawal";
 }
 
 
+
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  color: #37423b;
+  color: #ffffff;
   font-size: 14px;
-  background: #eef0ef;
+  background: #0c0624;
 }
 
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background: #f9faf9;
+  background: #01020c;
 }
 
 #footer .footer-top .footer-contact {
@@ -1082,16 +1085,17 @@ font-family: "Tajawal";
 
 #footer .footer-top .footer-contact p {
   font-size: 14px;
-  line-height: 24px;
-  margin-bottom: 0;
-  font-family: "Raleway", sans-serif;
-  color: #777777;
+  text-align: justify;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-family: "Tajawal";
+  color: #ebebeb;
 }
 
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #444444;
+  color: #f1f1f1;
   position: relative;
   padding-bottom: 12px;
 }
@@ -1108,7 +1112,7 @@ font-family: "Tajawal";
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #5fcf80;
+  color: #00A6AA;
   font-size: 18px;
   line-height: 1;
 }
@@ -1124,7 +1128,7 @@ font-family: "Tajawal";
 }
 
 #footer .footer-top .footer-links ul a {
-  color: #777777;
+  color: #f1f1f1;
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
@@ -1132,7 +1136,7 @@ font-family: "Tajawal";
 
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
-  color: #5fcf80;
+  color: #00A6AA;
 }
 
 #footer .footer-newsletter {
@@ -1142,7 +1146,7 @@ font-family: "Tajawal";
 #footer .footer-newsletter h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #444444;
+  color:#f1f1f1;
   position: relative;
   padding-bottom: 12px;
 }
@@ -1172,7 +1176,7 @@ font-family: "Tajawal";
   background: none;
   font-size: 16px;
   padding: 0 20px 2px 20px;
-  background: #5fcf80;
+  background: #00A6AA;
   color: #fff;
   transition: 0.3s;
   border-radius: 50px;
@@ -1180,7 +1184,7 @@ font-family: "Tajawal";
 }
 
 #footer .footer-newsletter form input[type="submit"]:hover {
-  background: #3ac162;
+  background: #e47b35;
 }
 
 #footer .credits {
@@ -1189,18 +1193,18 @@ font-family: "Tajawal";
 }
 
 #footer .credits a {
-  color: #3ac162;
+  color: #00A6AA;
   transition: 0.3s;
 }
 
 #footer .credits a:hover {
-  color: #5fcf80;
+  color: #00A6AA;
 }
 
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #5fcf80;
+  background: #00A6AA;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1213,7 +1217,7 @@ font-family: "Tajawal";
 }
 
 #footer .social-links a:hover {
-  background: #3ac162;
+  background: #00A6AA;
   color: #fff;
   text-decoration: none;
 }
