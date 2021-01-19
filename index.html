@@ -27,40 +27,46 @@
     <title>الصفحة الرئيسية</title>
   </head>
   <body data-aos-easing="ease" data-aos-duration="1000" data-aos-delay="0">
-    <button type="button" class="mobile-nav-toggle d-lg-none"><i class="icofont-navigation-menu"></i></button>
+
+    <button type="button" class="mobile-nav-toggle d-lg-none">
+      <i class="icofont-navigation-menu"></i></button>
+   
     <header id="header" class="fixed-top">
+      <button type="button" class="mobile-nav-toggle d-lg-none">
+        <i class="icofont-navigation-menu"></i></button>
+     
       <div class="container d-flex align-items-center">
-        
-        <!--logo-->
-        <h1 class="logo mr-auto">
-          <a href="index.html">
-            <img src="img/192.png" alt="logo">
-          </a>
-        </h1>
-        <!--end logo-->
-        
-        <div class="links" >
-           <a >الصفحة الرئيسية</a>
-           <a >التعليم المستمر</a>
-           <a >معلومات عنا</a>
-
-
-        </div>
-        <a href="courses.html" class="get1-started-btn">سجل مجانا</a>
-        <a href="courses.html" class="get2-started-btn">  دخول</a>
-        <a href="courses.html" class="get3-started-btn">En  </a>
-
+  
+        <h1 class="logo mr-auto"><a href="index.html">
+          <img src="img/192.png">
+        </a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+  
+        <nav class="nav-menu d-none d-lg-block">
+          <ul>
+            <li class="active"><a href="index.html">الرئيسية</a></li>
+            <li><a href="#">التعليم المستمر</a></li>
+            <li><a href="#">المدربين</a></li>
+            <li><a href="#">الفريق</a></li>
+            <li><a href="#">معلومات عنا</a></li>
+            <li><a href="#">تواصل معنا</a></li>
+            
+      
+  
+          </ul>
+        </nav><!-- .nav-menu -->
+  
+        <a href="courses.html" id ="get_start1" class="btn-get-started">سجل مجانا</a>
+        <a href="courses.html" id ="get_start2" class="btn-get-started">دخول</a>
+  
       </div>
-
- <!--my header-->
-
- 
-
     </header>
+  
     <!-- End Header -->
 
    
-    
+   
   
 
 
@@ -215,7 +221,7 @@
 
         <!--اقسام التعليم المستمر-->
         <div class="row" data-aos="zoom-in" data-aos-delay="100">
-          <div class="col-sm">
+          <div class="col-lg-4">
             <div class="card" style="width: 18rem;">
               <img src="img/Asset 11.png" class="card-img-top" alt="...">
               <div class="card-body">
@@ -227,7 +233,7 @@
            </div>
 
 
-          <div class="col-sm">
+          <div class="col-lg-4">
             <div class="card" style="width: 18rem;">
               <img src="img/Asset 14.png" class="card-img-top" alt="...">
               <div class="card-body">
@@ -239,7 +245,7 @@
           </div>
 
 
-          <div class="col-sm">
+          <div class="col-lg-4">
             <div class="card" style="width: 18rem;">
               <img src="img/Asset 18.png" class="card-img-top" alt="...">
               <div class="card-body">
@@ -527,6 +533,9 @@
           </div>
            
       </div>
+
+
+      
       
      </section>
      <!--End Books section-->
