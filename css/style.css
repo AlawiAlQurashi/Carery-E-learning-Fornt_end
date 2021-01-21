@@ -625,6 +625,8 @@ section {
   min-height: 235px;
 }
 
+
+
 @media (max-width: 992px) {
   .breadcrumbs {
     margin-top: 63px;
@@ -659,11 +661,12 @@ section {
 #image{
   width: 570px;
   height: 400px;
-  padding-right: 10%;
+  
 }
 #image img{
-  width: 450px;
-  height: 385px;
+  width: 500px;
+  
+  
 }
 
 /*--------------------------------------------------------------
@@ -1742,4 +1745,82 @@ margin-top: 10px;
   background:#e47b35;
   color: #fff;
   text-decoration: none;
+}
+
+
+
+
+.team .member {
+  margin-bottom: 20px;
+  overflow: hidden;
+  border-radius: 5px;
+  background:#30b4ad;
+}
+
+.team .member .member-img {
+  position: relative;
+  overflow: hidden;
+}
+
+.team .member .social {
+  position: absolute;
+  left: 0;
+  bottom: 30px;
+  right: 0;
+  opacity: 0;
+  transition: ease-in-out 0.3s;
+  text-align: center;
+}
+
+.team .member .social a {
+  transition: color 0.3s;
+  color: #111111;
+  margin: 0 3px;
+  padding-top: 7px;
+  border-radius: 50px;
+  width: 36px;
+  height: 36px;
+  background: #1ea1c2;
+  display: inline-block;
+  transition: ease-in-out 0.3s;
+  color: #fff;
+}
+
+.team .member .social a:hover {
+  background: #111111;
+}
+
+.team .member .social i {
+  font-size: 18px;
+}
+
+.team .member .member-info {
+  padding: 25px 15px;
+}
+
+.team .member .member-info h4 {
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.team .member .member-info span {
+  display: block;
+  font-size: 14px;
+  font-family: "Tajawal";
+  font-weight: 800;
+  color: #000000;
+}
+
+.team .member .member-info p {
+  font-style: italic;
+  font-size: 14px;
+  line-height: 26px;
+  color: #777777;
+}
+
+.team .member:hover .social {
+  opacity: 1;
+  bottom: 15px;
 }
