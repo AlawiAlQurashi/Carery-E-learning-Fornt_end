@@ -715,9 +715,10 @@ section {
   
 }
 .how_use{
-  margin-top: 50px;
-  justify-content: center;
   
+  justify-content: center;
+  margin-right: 20px;
+  width:auto;
 }
 
 
