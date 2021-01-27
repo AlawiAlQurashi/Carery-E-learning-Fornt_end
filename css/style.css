@@ -531,7 +531,7 @@ border-radius:2px ;
   letter-spacing: 1px;
   display: inline-block;
   padding: 10px 35px;
-  border:2px solid #e47b35;
+  border:2px solid #080808;
   border-radius: 50px;
   transition: 0.5s;
   margin-top: 10px;
@@ -717,6 +717,7 @@ section {
 .how_use{
   margin-top: 50px;
   justify-content: center;
+  
 }
 
 
