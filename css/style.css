@@ -23,7 +23,7 @@
 
 body {
   font-family:"Tajawal";
-  color: #444444;
+  color: #575757;
 }
 
 a {
@@ -166,6 +166,8 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 28px;
   }
 }
+
+
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -686,7 +688,7 @@ section {
 --------------------------------------------------------------*/
 .counts {
   padding: 30px 0;
-  background: #e47b35;
+  background:  #00A6AA;
 }
 
 .counts .counters span {
@@ -706,43 +708,20 @@ section {
 }
 
 .how {
-  padding: 50px;
-  background-color: #e47b35;
+
+  margin-top: 5px;
   box-sizing: border-box;
   display: block;
   
 }
-
-.how .counters span {
-  font-size: 48px;
-  color: #ffffff;
-  font-weight: 700;
-  
+.how_use{
+  margin-top: 50px;
+  justify-content: center;
 }
 
-.how .counters p {
-  padding: 0;
-  margin: 0 0 20px 0;
-  font-family: "Tajawal";
-  font-size: 15px;
-  font-weight: 600;
-  color: #37423b;
-}
 
-.how .text{
-  margin-top: 70px;
-  margin-right: 70px;
-  font-family: "Tajawal";
-  color: white;
-}
 
-.how h2{
-  margin-bottom: 50px;
-  margin-right: 70px;
-  font-family: "Tajawal";
-  color: white;
-  font-style: normal;
-}
+
 
 
 
@@ -782,8 +761,9 @@ font-family: "Tajawal";
 }
 
 .all{
-  margin-top: 10px;
+  
   margin-right: 20px;
+  align-content: center;
 }
 /*--------------------------------------------------------------
 # Contact
