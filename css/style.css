@@ -485,7 +485,7 @@ border-radius:2px ;
 
 #hero:before {
   content: "";
- 
+  
   position: absolute;
   bottom: 0;
   top: 0;
@@ -494,7 +494,7 @@ border-radius:2px ;
 }
 
 #hero .container {
-  padding-top: 45px;
+  padding-top: 72px;
 }
 
 @media (max-width: 992px) {
@@ -502,6 +502,7 @@ border-radius:2px ;
     padding-top: 62px;
   }
 }
+
 
 #hero h1 {
   margin: 0;
@@ -544,7 +545,7 @@ border-radius:2px ;
 
 @media (min-width: 1024px) {
   #hero {
-    background-attachment: fixed;
+    background-attachment:local;
   }
 }
 
@@ -712,8 +713,8 @@ section {
 .how_use{
   
   justify-content: center;
-  margin-right: 20px;
-  width:auto;
+  padding-top: 30px;
+  
 }
 
 
