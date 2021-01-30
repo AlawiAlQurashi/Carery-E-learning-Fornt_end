@@ -26,7 +26,7 @@ a {
 }
 
 a:hover {
-  color: #86db9f;
+  color:#00A4BD;
   text-decoration: none;
 }
 
@@ -233,7 +233,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
-  color: #07cf96;
+  color: #00A4BD;
 }
 
 .nav-menu .drop-down > a:after {
@@ -417,7 +417,7 @@ border-radius:2px ;
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #5fcf80;
+  color:#00A4BD;
   text-decoration: none;
 }
 
