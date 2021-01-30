@@ -614,8 +614,8 @@ section {
 .breadcrumbs {
   margin-top: 73px;
   text-align: center;
-  background: #e47b35;
   padding: 30px 0;
+  background: #e47b35;
   color: #fff;
   background-image: url('../img/about2.png');
   position: relative;
@@ -624,6 +624,28 @@ section {
   min-height: 235px;
 }
 
+.breadcrumbs_courses {
+  margin-top: 73px;
+  text-align: center;
+  background: #e47b35;
+  color: #fff;
+  position: relative;
+  background-size: cover;
+  background-position: center center;
+  min-height: 235px;
+}
+
+.breadcrumbs_courses .head_courses{
+  background:#006c7c7d ;
+  padding: 30px 0;
+  width: 100%;
+  height: 100%;
+  position:fixed;
+  
+}
+
+
+
 
 
 @media (max-width: 992px) {
@@ -631,6 +653,13 @@ section {
     margin-top: 63px;
   }
 }
+
+@media (max-width: 992px) {
+  .breadcrumbs_courses {
+    margin-top: 63px;
+  }
+}
+
 
 .about h3 {
   font-size: 20px;
@@ -1181,7 +1210,7 @@ margin-right: 45%;
   display: block;
   width: 60px;
   height: 1px;
-  background: #5fcf80;
+  background: #00A4BD;
   bottom: 0;
   left: 0;
 }
@@ -1196,7 +1225,7 @@ margin-right: 45%;
   font-weight: 400;
   font-size: 16px;
   margin: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: "Tajawal";
 }
 
 .course-details .course-info p {
@@ -1207,6 +1236,9 @@ margin-right: 45%;
 .course-details .course-info a {
   color: #657a6d;
 }
+
+
+ 
 
 /*--------------------------------------------------------------
 # Cource Details Tabs
@@ -1232,12 +1264,12 @@ margin-right: 45%;
 }
 
 .cource-details-tabs .nav-link:hover {
-  color: #5fcf80;
+  color: #00A4BD;
 }
 
 .cource-details-tabs .nav-link.active {
-  color: #5fcf80;
-  border-color: #5fcf80;
+  color:#00A4BD;
+  border-color: #00A4BD;
 }
 
 .cource-details-tabs .tab-pane.active {
@@ -1267,7 +1299,7 @@ margin-right: 45%;
   }
   .cource-details-tabs .nav-link.active {
     color: #fff;
-    background: #5fcf80;
+    background:#00A4BD;
   }
 }
 
