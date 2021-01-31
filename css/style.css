@@ -3,17 +3,10 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-@font-face {
-  font-family: Tajawal;
-  src: url(fonts/Tajawal-Black.ttf),
-  url(fonts/Tajawal-Bold.ttf),
-  url(fonts/Tajawal-ExtraBold.ttf),
-  url(fonts/Tajawal-ExtraLight.ttf),
-  url(fonts/Tajawal-Light.ttf),
-  url(fonts/Tajawal-Medium.ttf),
-  url(fonts/Tajawal-Regular.ttf),
-  ;
-}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+
 
 
 body {
@@ -31,7 +24,8 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Tajawal";
+  font-family: 'Tajawal', sans-serif;
+;
   
 }
 
@@ -190,7 +184,8 @@ h1, h2, h3, h4, h5, h6 {
   color: #37423b;
   transition: 0.3s;
   font-size: 16px;
-  font-family: "Tajawal";
+  font-family: 'Tajawal', sans-serif;
+;
   font-weight: 500;
 }
 
@@ -265,7 +260,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #get_start1{
-  font-family: "Tajawal";
+  font-family: 'Tajawal', sans-serif;
+;
   font-weight: 500;
   font-size: 12px;
   letter-spacing: 1px;
@@ -280,7 +276,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #get_start2{
-  font-family: "Tajawal";
+  font-family: 'Tajawal', sans-serif;
+;
   font-weight: 500;
   font-size: 12px;
   letter-spacing: 1px;
@@ -511,18 +508,21 @@ border-radius:2px ;
   font-weight: 700;
   line-height: 56px;
   color: rgb(0, 0, 0);
-  font-family: "Tajawal";
+  font-family: 'Tajawal', sans-serif;
+;
 }
 
 #hero h2 {
   color: rgb(59, 59, 59);
   margin: 10px 0 0 0;
   font-size: 12px;
-  font-family: "Tajawal";
+  font-family: 'Tajawal', sans-serif;
+;
 }
 
 #hero .btn-get-started {
-  font-family: "Tajawal";
+  font-family: 'Tajawal', sans-serif;
+;
   font-weight: 500;
   font-size: 15px;
   letter-spacing: 1px;
@@ -589,7 +589,8 @@ section {
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #aaaaaa;
-  font-family: "Tajawal";
+  font-family: 'Tajawal', sans-serif;
+;
 }
 
 .section-title h2::after {
@@ -607,7 +608,8 @@ section {
   font-size: 36px;
   font-weight: 700;
   text-transform: uppercase;
-  font-family: "Tajawal";
+  font-family: 'Tajawal', sans-serif;
+;
   color: #37423b;
 }
 
@@ -727,7 +729,8 @@ section {
 .counts .counters p {
   padding: 0;
   margin: 0 0 20px 0;
-  font-family: "Tajawal";
+  font-family: 'Tajawal', sans-serif;
+;
   font-size: 15px;
   font-weight: 600;
   color: #070707;
@@ -761,15 +764,18 @@ section {
 }
 
 .card-body a{
-font-family: "Tajawal";
+font-family: 'Tajawal', sans-serif;
+;
 }
 
 .card-title{
-  font-family: "Tajawal";
+  font-family: 'Tajawal', sans-serif;
+;
 }
 
 .courses .name_book{
-  font-family: "Tajawal";
+  font-family: 'Tajawal', sans-serif;
+;
 }
 
 .courses .auther{
@@ -1225,7 +1231,8 @@ margin-right: 45%;
   font-weight: 400;
   font-size: 16px;
   margin: 0;
-  font-family: "Tajawal";
+  font-family: 'Tajawal', sans-serif;
+;
 }
 
 .course-details .course-info p {
@@ -1519,7 +1526,8 @@ margin-top: 10px;
   text-align: justify;
   margin-top: 20px;
   margin-left: 20px;
-  font-family: "Tajawal";
+  font-family: 'Tajawal', sans-serif;
+;
   color: #ebebeb;
 }
 
@@ -1715,7 +1723,8 @@ margin-top: 10px;
 .team .member .member-info span {
   display: block;
   font-size: 14px;
-  font-family: "Tajawal";
+  font-family: 'Tajawal', sans-serif;
+;
   font-weight: 800;
   color: #646464;
 }
