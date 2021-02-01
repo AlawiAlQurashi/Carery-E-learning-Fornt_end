@@ -1777,5 +1777,220 @@ margin-top: 10px;
   margin-top: 20px;
 }
 
+.lessons-list{
+  background: #fff;
+  margin-bottom: 30px;
+  border: 1px solid #ddd;
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 10%);
+
+}
+.lessons-list h3 {
+  color: #222831;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Tajawal";
+  margin: 0;
+  padding: 20px;
+  text-align: right;
+  border-bottom: 1px solid #ddd;
+}
+
+.lessons-list ul {
+  list-style: none;
+  padding-right: 0;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.lessons-list ul {
+  list-style: none;
+  padding-right: 0;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.lessons-list a {
+  text-decoration: none;
+}
+
+.lessons-list .lesson-icon {
+  float: right;
+  font-size: 28px;
+  margin-left: 15px;
+  color:  #00A6AA;
+  height: 100%;
+}
+
+.lessons-list .lesson-title {
+  font-family: NotoNaskhArabic-Regular,"Open Sans",Tahoma,Arial,sans-serif;
+  font-size: 17px;
+  color: #222831;
+}
+
+.lessons-list .lesson-duration {
+  font-family: NotoNaskhArabic-Regular,"Open Sans",Tahoma,Arial,sans-serif;
+  color: #777;
+  font-size: 14px;
+  margin-top: 3px;
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transform: translate(0, 0);
+}
+
+.lessons-list ul {
+  list-style: none;
+  padding-right: 0;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.lessons-list ul li {
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+  text-align: right;
+  padding: 10px 15px;
+}
+
+.lessons-list .lesson-icon {
+  float: right;
+  font-size: 28px;
+  margin-left: 15px;
+  color:  #00A6AA;
+  height: 100%;
+}
 
 
+
+.controls {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.nowrap button {
+  background: rgba(0,0,0,.64);
+  color: #fff;
+  height: 35px;
+  width: 35px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  border-width: 0;
+  margin: auto 2px;
+}
+
+.navigation-buttons a {
+  text-decoration: none;
+  margin: 0 2px;
+}
+
+.next-button {
+  position: absolute;
+  left: 15px;
+  bottom: 18px;
+  float: none;
+}
+.navigation-buttons {
+  margin-top: 10px;
+}
+
+.navigation-buttons .nav-button {
+  background: rgba(0,0,0,.64);
+  color: #fff;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  border-width: 0;
+  
+  padding: 5px 10px;
+}
+
+.rating-result {
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-top: -5px;
+  margin-bottom: 5px;
+}
+
+.rating-large {
+  margin-bottom: 5px;
+  display: block;
+  text-align: center;
+}
+
+.rating-user {
+  text-align: center;
+  font-size: 14px;
+  color: rgb(0, 0, 0);
+  margin-top: 10px;
+  font-weight: 700;
+}
+
+.view-all-rating{
+  text-align: center;
+}
+
+.view-all-rating a{
+color: white;
+
+}
+
+.share-course .course-link-input {
+  direction: ltr;
+}
+
+.share-course .course-link-input input {
+  border-radius: 0;
+}
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+  background-color: #eee;
+  opacity: 1;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+  box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+  -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.share-course ul.share-buttons {
+  margin-top: 20px;
+  list-style: none;
+  margin-right: 0;
+}
+.list-inline, .list-unstyled {
+  padding-left: 0;
+  padding-right: 0;
+}
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+.share-course ul.share-buttons li {
+  display: inline;
+  text-align: center;
+}
+
+.wedgit{
+  box-shadow: 0 6px 10px 0 rgb(0 0 0 / 10%);
+}
