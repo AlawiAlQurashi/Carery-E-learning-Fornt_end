@@ -862,7 +862,7 @@ margin-right: 45%;
 .courses .trainer .trainer-profile span {
   padding-left: 10px;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 12px;
   color: #5a6c60;
 }
 
@@ -1722,7 +1722,7 @@ margin-top: 10px;
 
 .team .member .member-info span {
   display: block;
-  font-size: 14px;
+  font-size: 8px;
   font-family: 'Tajawal', sans-serif;
 ;
   font-weight: 800;
@@ -1994,3 +1994,4 @@ color: white;
 .wedgit{
   box-shadow: 0 6px 10px 0 rgb(0 0 0 / 10%);
 }
+
