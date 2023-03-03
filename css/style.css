@@ -19,7 +19,7 @@ a {
 }
 
 a:hover {
-  color:#00A4BD;
+  color:#EB1D6C;
   text-decoration: none;
 }
 
@@ -77,7 +77,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #00A4BD;
+  border: 6px solid #EB1D6C;
   border-top-color: #fff;
   border-bottom-color: #fff;
   border-radius: 50%;
@@ -190,7 +190,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #00A4BD;
+  color: #EB1D6C;
 }
 
 .nav-menu .drop-down ul {
@@ -228,7 +228,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
-  color: #00A4BD;
+  color: #EB1D6C;
 }
 
 .nav-menu .drop-down > a:after {
@@ -306,7 +306,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Get Startet Button */
 .get1-started-btn {
   margin-left: 10px;
-  background:#00A4BD;
+  background:#EB1D6C;
   color: #fff;
   border-radius: 70px;
   padding: 8px 25px;
@@ -350,7 +350,7 @@ border-radius:2px ;
 }
 
 .get-started-btn:hover {
-  background: #00A4BD;
+  background: #EB1D6C;
   color: #fff;
   border: 2px solid ;
 }
@@ -414,7 +414,7 @@ border-radius:2px ;
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color:#00A4BD;
+  color:#EB1D6C;
   text-decoration: none;
 }
 
@@ -537,8 +537,8 @@ border-radius:2px ;
 }
 
 #hero .btn-get-started:hover {
-  background: #00A4BD;
-  border: 2px solid #00A4BD;
+  background: #EB1D6C;
+  border: 2px solid #EB1D6C;
   color:white;
 }
 
@@ -598,7 +598,7 @@ section {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background:#00A4BD;
+  background:#EB1D6C;
   margin: 4px 10px;
 }
 
@@ -826,7 +826,7 @@ margin-right: 45%;
 }
 
 .courses .course-content h3 a:hover {
-  color: #00A4BD;
+  color: #EB1D6C;
 }
 
 .courses .course-content p {
@@ -836,7 +836,7 @@ margin-right: 45%;
 
 .courses .course-content h4 {
   font-size: 14px;
-  background: #00A4BD;
+  background: #EB1D6C;
   padding: 7px 14px;
   color: #fff;
   margin: 0;
@@ -1216,7 +1216,7 @@ margin-right: 45%;
   display: block;
   width: 60px;
   height: 1px;
-  background: #00A4BD;
+  background: #EB1D6C;
   bottom: 0;
   left: 0;
 }
@@ -1271,12 +1271,12 @@ margin-right: 45%;
 }
 
 .cource-details-tabs .nav-link:hover {
-  color: #00A4BD;
+  color: #EB1D6C;
 }
 
 .cource-details-tabs .nav-link.active {
-  color:#00A4BD;
-  border-color: #00A4BD;
+  color:#EB1D6C;
+  border-color: #EB1D6C;
 }
 
 .cource-details-tabs .tab-pane.active {
@@ -1306,7 +1306,7 @@ margin-right: 45%;
   }
   .cource-details-tabs .nav-link.active {
     color: #fff;
-    background:#00A4BD;
+    background:#EB1D6C;
   }
 }
 
